@@ -7,7 +7,7 @@ import React from 'react';
 import { Mail, Phone, Calendar, User, Laptop, Clock, FileText } from 'lucide-react';
 import { Modal, Button, Avatar, Badge } from '../ui';
 import { useAppDispatch, useAppSelector } from '../../hooks';
-import { closeModal, openModal, clearSelectedEmployee } from '../../features';
+import { closeModal, clearSelectedEmployee } from '../../features';
 import { formatDate, getFullName, getRoleDisplayName, formatPhone } from '../../utils';
 import { getCustomFields } from '../../config';
 

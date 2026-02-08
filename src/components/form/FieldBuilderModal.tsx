@@ -4,8 +4,8 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import { X, Plus, Trash2 } from 'lucide-react';
-import { Modal, Button, Input, Select, Toggle } from '../ui';
+import { Plus, Trash2 } from 'lucide-react';
+import { Modal, Button, Input, Toggle } from '../ui';
 import { FieldSchema, FieldOption } from '../../types';
 import { FIELD_GROUPS, FIELD_TYPES } from '../../config';
 

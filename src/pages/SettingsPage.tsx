@@ -16,12 +16,10 @@ import {
 } from 'lucide-react';
 import {
     getAllFields,
-    getCustomFields,
     addCustomField,
     updateCustomField,
     deleteCustomField,
     resetToDefaults,
-    MANDATORY_FIELDS,
     FIELD_GROUPS
 } from '../config';
 import { Button, Badge, Modal } from '../components/ui';
